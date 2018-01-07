@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WebViewController.h"
+#import "ShellItem.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [ShellItem share];
+
+    self.window.rootViewController = [[WebViewController alloc] init];
     return YES;
 }
 
