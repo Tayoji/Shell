@@ -25,6 +25,7 @@
 		C80CA90520025DA500B2392C /* s-go.png in Resources */ = {isa = PBXBuildFile; fileRef = C80CA90120025DA500B2392C /* s-go.png */; };
 		C80CA90820025ECC00B2392C /* VButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA90720025ECC00B2392C /* VButton.m */; };
 		C80CA90B20025F8A00B2392C /* ShellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA90A20025F8A00B2392C /* ShellItem.m */; };
+		F4610F8F200364CF009BE34B /* ShellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4610F8E200364CF009BE34B /* ShellConfiguration.m */; };
 		FEAD75105C86760BF47ADF48 /* libPods-Shell-ShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC887BE5C3E8EFD36378C00 /* libPods-Shell-ShellUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,8 @@
 		C80CA90920025F8A00B2392C /* ShellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellItem.h; sourceTree = "<group>"; };
 		C80CA90A20025F8A00B2392C /* ShellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellItem.m; sourceTree = "<group>"; };
 		E16E689A734C71B4CAAA4F53 /* Pods-Shell-ShellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shell-ShellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shell-ShellUITests/Pods-Shell-ShellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4610F8D200364CF009BE34B /* ShellConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellConfiguration.h; sourceTree = "<group>"; };
+		F4610F8E200364CF009BE34B /* ShellConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellConfiguration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +196,8 @@
 				C80CA90720025ECC00B2392C /* VButton.m */,
 				C80CA90920025F8A00B2392C /* ShellItem.h */,
 				C80CA90A20025F8A00B2392C /* ShellItem.m */,
+				F4610F8D200364CF009BE34B /* ShellConfiguration.h */,
+				F4610F8E200364CF009BE34B /* ShellConfiguration.m */,
 			);
 			path = ShellPods;
 			sourceTree = "<group>";
@@ -515,6 +520,7 @@
 				C80CA8C720024F0F00B2392C /* ViewController.m in Sources */,
 				C80CA90820025ECC00B2392C /* VButton.m in Sources */,
 				C80CA8D220024F1000B2392C /* main.m in Sources */,
+				F4610F8F200364CF009BE34B /* ShellConfiguration.m in Sources */,
 				C80CA90B20025F8A00B2392C /* ShellItem.m in Sources */,
 				C80CA8C420024F0F00B2392C /* AppDelegate.m in Sources */,
 				C80CA8FB200257B800B2392C /* WebViewController.m in Sources */,
@@ -682,8 +688,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YW5ZT5ZV5P;
+				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
 				INFOPLIST_FILE = Shell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.Shell01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -697,8 +704,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YW5ZT5ZV5P;
+				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
 				INFOPLIST_FILE = Shell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.Shell01;
 				PRODUCT_NAME = "$(TARGET_NAME)";

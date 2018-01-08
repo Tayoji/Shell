@@ -25,5 +25,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)click:(UIButton *)button {
+    for (NSInteger tag = 100; tag<104 ; tag ++) {
+        UIButton * other = [self.view viewWithTag:tag];
+        other.selected = button.tag == tag;
+    }
+    
+}
 
 @end
