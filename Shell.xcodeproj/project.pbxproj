@@ -17,15 +17,7 @@
 		C80CA8D220024F1000B2392C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA8D120024F1000B2392C /* main.m */; };
 		C80CA8DC20024F1000B2392C /* ShellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA8DB20024F1000B2392C /* ShellTests.m */; };
 		C80CA8E720024F1000B2392C /* ShellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA8E620024F1000B2392C /* ShellUITests.m */; };
-		C80CA8FB200257B800B2392C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA8F9200257B800B2392C /* WebViewController.m */; };
-		C80CA8FC200257B800B2392C /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80CA8FA200257B800B2392C /* WebViewController.xib */; };
-		C80CA90220025DA500B2392C /* s-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C80CA8FE20025DA500B2392C /* s-refresh.png */; };
-		C80CA90320025DA500B2392C /* s-main.png in Resources */ = {isa = PBXBuildFile; fileRef = C80CA8FF20025DA500B2392C /* s-main.png */; };
-		C80CA90420025DA500B2392C /* s-back.png in Resources */ = {isa = PBXBuildFile; fileRef = C80CA90020025DA500B2392C /* s-back.png */; };
-		C80CA90520025DA500B2392C /* s-go.png in Resources */ = {isa = PBXBuildFile; fileRef = C80CA90120025DA500B2392C /* s-go.png */; };
-		C80CA90820025ECC00B2392C /* VButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA90720025ECC00B2392C /* VButton.m */; };
-		C80CA90B20025F8A00B2392C /* ShellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C80CA90A20025F8A00B2392C /* ShellItem.m */; };
-		F4610F8F200364CF009BE34B /* ShellConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F4610F8E200364CF009BE34B /* ShellConfiguration.m */; };
+		F48CAD96201099C400A4681F /* TYJConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48CAD95201099C300A4681F /* TYJConfiguration.framework */; };
 		FEAD75105C86760BF47ADF48 /* libPods-Shell-ShellUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC887BE5C3E8EFD36378C00 /* libPods-Shell-ShellUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -71,20 +63,8 @@
 		C80CA8E220024F1000B2392C /* ShellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C80CA8E620024F1000B2392C /* ShellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellUITests.m; sourceTree = "<group>"; };
 		C80CA8E820024F1000B2392C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C80CA8F8200257B800B2392C /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		C80CA8F9200257B800B2392C /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		C80CA8FA200257B800B2392C /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
-		C80CA8FE20025DA500B2392C /* s-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s-refresh.png"; sourceTree = "<group>"; };
-		C80CA8FF20025DA500B2392C /* s-main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s-main.png"; sourceTree = "<group>"; };
-		C80CA90020025DA500B2392C /* s-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s-back.png"; sourceTree = "<group>"; };
-		C80CA90120025DA500B2392C /* s-go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s-go.png"; sourceTree = "<group>"; };
-		C80CA90620025ECC00B2392C /* VButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VButton.h; sourceTree = "<group>"; };
-		C80CA90720025ECC00B2392C /* VButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VButton.m; sourceTree = "<group>"; };
-		C80CA90920025F8A00B2392C /* ShellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellItem.h; sourceTree = "<group>"; };
-		C80CA90A20025F8A00B2392C /* ShellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellItem.m; sourceTree = "<group>"; };
 		E16E689A734C71B4CAAA4F53 /* Pods-Shell-ShellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shell-ShellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shell-ShellUITests/Pods-Shell-ShellUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F4610F8D200364CF009BE34B /* ShellConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellConfiguration.h; sourceTree = "<group>"; };
-		F4610F8E200364CF009BE34B /* ShellConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellConfiguration.m; sourceTree = "<group>"; };
+		F48CAD95201099C300A4681F /* TYJConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TYJConfiguration.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ACEBE2D3885ECB9D30ECC3 /* libPods-Shell.a in Frameworks */,
+				F48CAD96201099C400A4681F /* TYJConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +134,7 @@
 		C80CA8C120024F0F00B2392C /* Shell */ = {
 			isa = PBXGroup;
 			children = (
-				C80CA8F42002576C00B2392C /* ShellPods */,
+				F48CAD95201099C300A4681F /* TYJConfiguration.framework */,
 				C80CA8C220024F0F00B2392C /* AppDelegate.h */,
 				C80CA8C320024F0F00B2392C /* AppDelegate.m */,
 				C80CA8C520024F0F00B2392C /* ViewController.h */,
@@ -183,34 +164,6 @@
 				C80CA8E820024F1000B2392C /* Info.plist */,
 			);
 			path = ShellUITests;
-			sourceTree = "<group>";
-		};
-		C80CA8F42002576C00B2392C /* ShellPods */ = {
-			isa = PBXGroup;
-			children = (
-				C80CA8FD20025D9500B2392C /* src */,
-				C80CA8F8200257B800B2392C /* WebViewController.h */,
-				C80CA8F9200257B800B2392C /* WebViewController.m */,
-				C80CA8FA200257B800B2392C /* WebViewController.xib */,
-				C80CA90620025ECC00B2392C /* VButton.h */,
-				C80CA90720025ECC00B2392C /* VButton.m */,
-				C80CA90920025F8A00B2392C /* ShellItem.h */,
-				C80CA90A20025F8A00B2392C /* ShellItem.m */,
-				F4610F8D200364CF009BE34B /* ShellConfiguration.h */,
-				F4610F8E200364CF009BE34B /* ShellConfiguration.m */,
-			);
-			path = ShellPods;
-			sourceTree = "<group>";
-		};
-		C80CA8FD20025D9500B2392C /* src */ = {
-			isa = PBXGroup;
-			children = (
-				C80CA90020025DA500B2392C /* s-back.png */,
-				C80CA90120025DA500B2392C /* s-go.png */,
-				C80CA8FF20025DA500B2392C /* s-main.png */,
-				C80CA8FE20025DA500B2392C /* s-refresh.png */,
-			);
-			path = src;
 			sourceTree = "<group>";
 		};
 		F1E13C99628CB41000669971 /* Frameworks */ = {
@@ -339,13 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80CA8CF20024F1000B2392C /* LaunchScreen.storyboard in Resources */,
-				C80CA90520025DA500B2392C /* s-go.png in Resources */,
 				C80CA8CC20024F1000B2392C /* Assets.xcassets in Resources */,
 				C80CA8CA20024F1000B2392C /* Main.storyboard in Resources */,
-				C80CA8FC200257B800B2392C /* WebViewController.xib in Resources */,
-				C80CA90320025DA500B2392C /* s-main.png in Resources */,
-				C80CA90220025DA500B2392C /* s-refresh.png in Resources */,
-				C80CA90420025DA500B2392C /* s-back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,12 +466,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C80CA8C720024F0F00B2392C /* ViewController.m in Sources */,
-				C80CA90820025ECC00B2392C /* VButton.m in Sources */,
 				C80CA8D220024F1000B2392C /* main.m in Sources */,
-				F4610F8F200364CF009BE34B /* ShellConfiguration.m in Sources */,
-				C80CA90B20025F8A00B2392C /* ShellItem.m in Sources */,
 				C80CA8C420024F0F00B2392C /* AppDelegate.m in Sources */,
-				C80CA8FB200257B800B2392C /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,10 +633,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shell",
+				);
 				INFOPLIST_FILE = Shell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.Shell01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.125125;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -705,10 +653,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Shell",
+				);
 				INFOPLIST_FILE = Shell/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.Shell01;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.125125;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WebViewController.h"
-#import "ShellItem.h"
+#import <TYJConfiguration/TYJConfiguration.h>
 @interface AppDelegate ()
 
 @end
@@ -19,8 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-
-    self.window.rootViewController = [[WebViewController alloc] init];
+    
+    
+    [TYJConfiguration initializeProjectWith:_window];
     return YES;
 }
 

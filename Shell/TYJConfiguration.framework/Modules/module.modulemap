@@ -1,0 +1,6 @@
+framework module TYJConfiguration {
+  umbrella header "TYJConfiguration.h"
+
+  export *
+  module * { export * }
+}
